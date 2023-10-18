@@ -1,0 +1,291 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+#About{
+    background-color:#e8e8e4 ;
+    
+}
+
+.d-flex .btn:hover{
+    color:black;
+      
+}
+.d-flex .btn{
+   margin-top: 25px; 
+   padding-top: 0%;
+}
+
+.btn{
+    background-color:#ece4db;
+}
+.icons i{
+    
+    color: black;
+    font-size: 200%;
+    padding-bottom: 80px;
+}
+
+.icons a i:hover{
+    color:#ff004f;
+    transform: translateY(-5px);
+}
+.container-right {
+    position: absolute;
+   
+    width:50%;
+    background-image:url("blob.svg");
+    right:100%;
+    bottom:0;
+    height:80%;
+}
+  .contact-right img{
+    height: 70%;
+    position:absolute;
+    left:65%;
+    bottom:125px;
+    padding: 0%;
+}
+.img-thumbnail{
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height:350px;
+    width: 380px;
+    border:2px solid white;
+   
+}
+
+/*------about me section------*/
+#about{
+    background-color:white;
+}
+.container span{
+    color:rgb(219, 114, 76);
+
+}
+.container h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ .box .icons a:hover{
+   color:pink;
+   transform: translateY(-5px);
+}
+
+/*----skill-section-----*/
+#skill-section{
+    width:100%;
+    height:auto;
+    padding:80px 13%;
+    background-color:#e8e8e4;
+}
+
+.headerskill-head{
+    width:100%;
+    margin-bottom: 70px;
+    display:grid;
+    place-items: center;
+    text-align: center;
+}
+
+.headerskill-head h2{
+margin-bottom: -5px;
+}
+.headerskill-head h2 span{
+    color:rgb(219, 114, 76);
+
+}
+
+.skill-main{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+}
+
+.skill-main .info{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px;
+}
+ .skill-main  .percent{
+    font-weight: bold;
+}
+
+.skill-main  .progress{
+    background-color: black;
+    border-radius: 8px;
+    height:15%;
+    display:grid;
+    margin-left:2px;
+    
+    
+}
+
+.skill-main .progress .progress-bar{
+   background-color:rgb(219, 114, 76);
+   color: black ;
+    animation-duration:2s;
+    animation-iteration-count: 2;
+    animation:3s;
+    position:relative;
+    animation:progress-bar 3s;
+    width:200px;
+   
+}
+@keyframes progress-bar{
+    from{
+    width:0px;   
+    }
+    to{
+    width:200px;
+   }
+
+}
+
+/*---------------education section-----------*/
+
+
+.education{
+    width:100%;
+    height:100%;
+}
+.education .heading{
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.education .heading span{
+color:rgb(219, 114, 76);
+padding-left: 5px;;
+}
+.education .heading p{
+    text-align: center;
+    padding-top: -15px;
+}
+.education-bar{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    margin-bottom: 50px;
+}
+/*----------
+.graduation{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+------*/
+.year h3{
+    
+    margin-left:5% ;
+}
+ .year p{
+    padding-left:20px;
+   
+    
+}
+.year h4{ 
+     
+    margin-left:5% ;
+}
+.year i {
+    margin-top: 20px;
+    margin-left:-5px ;
+    font-size: 25px ;
+}
+ .year span{
+    font-size:1rem ;
+    background-color: #222;
+    color:white;
+    border-radius: 2rem;
+    padding-left:3px;
+    padding-right: 3px;
+ }
+ 
+.vl {
+    border-left: 3px solid rgb(10, 11, 10);
+    height: 150px;
+    border-radius: 2px;
+    border-right: 8px;
+    margin-left: 20px;
+}
+ 
+/*-------contact section-----*/
+#contact{
+    background-color:#e8e8e4;
+    width:100%;
+    padding-top: 8%;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top:30px ;
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right:15px ;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icon a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    transition:transform 0.5s;
+}
+.social-icon a:hover{
+    color:#ff004f;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display:inline-block;
+    color:white;
+    background:black;
+}
+.contact-right form{
+    width:100%;
+    padding-bottom: 10px;
+}
+form input,form textarea{
+width:100%;
+border: 0%;
+background: #262626; ;
+outline:none;
+padding: 10px;
+margin:15px 0;
+color: #fff;
+font-size: 18px;
+border-radius: 6px;
+}
+form .btn{
+    padding:14px,60px;
+    font-size:18px;
+    margin-top: 20px;
+    cursor:pointer;
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+form .btn:hover{
+    color: #ff004f;
+}
